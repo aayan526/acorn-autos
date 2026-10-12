@@ -1,0 +1,6 @@
+{
+  "name": "Acorn Autos Ltd | Wortley MOT & Service Centre",
+  "description": "Acorn Autos Ltd is an independent garage and VOSA-approved MOT testing station in Lower Wortley, Leeds LS12. 30+ years of vehicle servicing, repairs, diagnostics, and tyres.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
