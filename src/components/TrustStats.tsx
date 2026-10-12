@@ -76,13 +76,13 @@ export const TrustStats: React.FC = () => {
           <div className="flex flex-col items-center sm:items-start pt-3 lg:pt-0 sm:px-4 text-center sm:text-left">
             <div className="flex items-center gap-2 text-amber-400 mb-1">
               <Users className="w-5 h-5 shrink-0" />
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Google Reviews</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-400">4.8 Star Google Rating</span>
             </div>
             <div className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight tabular-nums font-mono">
               {ratingCount.toFixed(1)} <span className="text-amber-400 text-2xl font-sans">★</span>
             </div>
             <p className="text-xs text-slate-400 mt-1 leading-relaxed">
-              Based on {reviewsCount}+ verified local motorist ratings
+              Based on 54+ verified local motorist ratings
             </p>
           </div>
 

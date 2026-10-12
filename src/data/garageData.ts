@@ -24,7 +24,7 @@ export const GARAGE_INFO = {
   stats: {
     yearsTrading: 30,
     googleRating: 4.8,
-    reviewsCount: 284,
+    reviewsCount: 54,
     motStandard: 'VOSA Approved Class 4',
   },
   coords: {

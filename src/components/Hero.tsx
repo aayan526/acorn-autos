@@ -207,14 +207,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onVehicleSelected }) 
 
             {/* Social Proof Inline */}
             <div className="pt-2 flex flex-wrap items-center gap-4 text-xs sm:text-sm text-slate-400 border-t border-slate-800/80 mt-4">
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-1.5">
                 <div className="flex text-amber-400">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <span className="font-bold text-white ml-1">4.8</span>
-                <span className="text-slate-400">/ 5.0 Google Rating</span>
+                <span className="font-bold text-white">4.8 star Google rating</span>
+                <span className="text-slate-400">(54+ verified reviews)</span>
               </div>
               <span className="text-slate-600 hidden sm:inline">|</span>
               <span className="text-slate-300 font-medium">30+ Years Wortley Community Trust</span>

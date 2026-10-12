@@ -27,8 +27,8 @@ export const TestimonialsSection: React.FC = () => {
               G
             </div>
             <div>
-              <div className="flex items-center gap-1.5">
-                <span className="text-xl font-black text-white">{GARAGE_INFO.stats.googleRating}</span>
+              <div className="flex items-center gap-2">
+                <span className="text-sm sm:text-base font-bold text-white">4.8 star Google rating</span>
                 <div className="flex text-amber-400">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
@@ -36,7 +36,7 @@ export const TestimonialsSection: React.FC = () => {
                 </div>
               </div>
               <div className="text-xs text-slate-400 mt-0.5">
-                Based on {GARAGE_INFO.stats.reviewsCount} Google Reviews
+                54+ verified local motorist ratings
               </div>
             </div>
           </div>
